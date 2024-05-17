@@ -1,0 +1,160 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 60px 20px;
+    margin: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .inicio {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .inicio .cta {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .sobre-nosotros {
+    background-color: #e9ecef;
+    text-align: center;
+  }
+  
+  .sobre-nosotros .team-photo {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .servicios {
+    background-color: #f8f8f8;
+  }
+  
+  .servicios ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .servicios li {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  .servicios img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .portafolio {
+    background-color: #e9ecef;
+  }
+  
+  .proyecto {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .contacto form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto label {
+    margin-bottom: 5px;
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contacto button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
