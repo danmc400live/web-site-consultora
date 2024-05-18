@@ -125,14 +125,20 @@ body {
     height: auto;
     border-radius: 5px;
   }
-  
+  #conta{
+  text-align: center;  
+  }
+
   .contacto form {
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
   }
   
   .contacto label {
     margin-bottom: 5px;
+    font-weight: bold;
   }
   
   .contacto input,
@@ -141,6 +147,22 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contacto input[type="text"],
+  .contacto input[type="email"],
+  .contacto input[type="tel"],
+  .contacto input[type="number"],
+  .contacto input[type="url"],
+  .contacto input[type="search"],
+  .contacto textarea {
+    width: 100%;
+  }
+  
+  .contacto textarea {
+    height: 150px;
+    resize: vertical;
   }
   
   .contacto button {
@@ -150,6 +172,14 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contacto button:hover {
+    background-color: #003f8a;
   }
   
   footer {
