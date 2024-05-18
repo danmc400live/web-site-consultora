@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background-color: #0056b3;
+    background-color: #92943be0;
     color: #fff;
     padding: 20px 0;
     display: flex;
@@ -102,7 +102,7 @@ body {
   }
   
   .servicios img {
-    width: 100%;
+    width: 25%;
     height: auto;
     border-radius: 5px;
   }
@@ -121,7 +121,7 @@ body {
   }
   
   .proyecto img {
-    width: 100%;
+    width: 25%;
     height: auto;
     border-radius: 5px;
   }

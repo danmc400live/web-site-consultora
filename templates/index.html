@@ -9,7 +9,7 @@
 <body>
   <header>
     <div class="container">
-      <img src="images/logo.png" alt="Logo de la Consultora de Software" class="logo">
+      <img src="{{url_for('static',filename='imagenes/logo.png')}}" alt="Logo de la Consultora de Software" class="logo">
       <nav>
         <ul>
           <li><a href="#inicio">Inicio</a></li>
@@ -36,7 +36,7 @@
       <p>Somos una empresa dedicada a brindar soluciones de software de alta calidad.
       <br>Nuestro equipo de expertos trabaja para ofrecer soluciones que se adapten a las necesidades específicas de cada cliente.
     <br> </p>
-      <img src="images/team.jpg" alt="Nuestro equipo" class="team-photo">
+      <img src="{{url_for('static',filename='imagenes/team.png')}}" alt="Nuestro equipo" class="team-photo">
     </div>
   </section>
 
@@ -86,7 +86,7 @@
         <p>Migracion de Base de Datos de sql a NoSql.</p>
       </div>
       <div class="proyecto">
-        <img src="images/project3.jpg" alt="Proyecto 3">
+        <img src="{{url_for('static',filename='imagenes/cloud.png')}}" alt="Proyecto 3">
         <h3>Proyecto 3</h3>
         <p>Migracion de servicios OnPermise a nube.</p>
       </div>
