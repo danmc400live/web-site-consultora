@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Consultora de Software</title>
+  <title>West Gate Lion--</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='estilos/styles.css' ) }}"/>
 </head>
 <body>
   <header>
     <div class="container">
-      <img src="{{url_for('static',filename='imagenes/logo.png')}}" alt="Logo de la Consultora de Software" class="logo">
+      <img src="{{url_for('static',filename='imagenes/logo.svg')}}" alt="Logo de la Consultora de Software" class="logo">
       <nav>
         <ul>
           <li><a href="#inicio">Inicio</a></li>
@@ -24,7 +24,9 @@
 
   <section id="inicio" class="inicio">
     <div class="container">
-      <h2>Bienvenidos a nuestra consultora de software</h2>
+      <h2>Bienvenidos a nuestra consultora de software<br>
+        West Gate Lion
+      </h2>
       <p>Ofrecemos soluciones tecnológicas innovadoras para tu negocio.</p>
       <a href="#contacto" class="cta">Contáctanos</a>
     </div>
@@ -61,11 +63,11 @@
           <p>Diseño de sistema</p>
         </li>
         <li>
-          <img src="images/service5.jpg" alt="Sistemas de alto rendimiento">
+          <img src="{{url_for('static',filename='imagenes/rendimiento.svg')}}" alt="Sistemas de alto rendimiento">
           <p>Sistemas de alto rendimiento</p>
         </li>
         <li>
-          <img src="images/service4.jpg" alt="Sistemas de alta disponibilidad">
+          <img src="{{url_for('static',filename='imagenes/disponible.svg')}}" alt="Sistemas de alta disponibilidad">
           <p>Sistemas de alta disponibilidad</p>
         </li>
       </ul>
@@ -76,14 +78,14 @@
     <div class="container">
       <h2>Portafolio</h2>
       <div class="proyecto">
-        <img src="images/project1.jpg" alt="Proyecto 1">
+        <img src="{{url_for('static',filename='imagenes/chat.svg')}}" alt="Proyecto 1">
         <h3>Proyecto 1</h3>
         <p>Creacion de chatbot.</p>
       </div>
       <div class="proyecto">
-        <img src="images/project2.jpg" alt="Proyecto 2">
+        <img src="{{url_for('static',filename='imagenes/mongo.svg')}}" alt="Proyecto 2">
         <h3>Proyecto 2</h3>
-        <p>Migracion de Base de Datos de sql a NoSql.</p>
+        <p>Migracion de Base de Datos SQL a NoSql.</p>
       </div>
       <div class="proyecto">
         <img src="{{url_for('static',filename='imagenes/cloud.png')}}" alt="Proyecto 3">
@@ -91,7 +93,7 @@
         <p>Migracion de servicios OnPermise a nube.</p>
       </div>
       <div class="proyecto">
-        <img src="images/project4.jpg" alt="Proyecto 4">
+        <img src="{{url_for('static',filename='imagenes/robot.svg')}}" alt="Proyecto 4">
         <h3>Proyecto 4</h3>
         <p>Programacion de robot asistente personal.</p>
       </div>
@@ -131,7 +133,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; 2024 Consultora de Software. Todos los derechos reservados.</p>
+      <p>&copy; 2024 Consultora de Software West Gate Lion. Todos los derechos reservados.</p>
     </div>
   </footer>
 
